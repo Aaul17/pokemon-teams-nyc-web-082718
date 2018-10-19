@@ -9,15 +9,17 @@ release one of their Pokemon first.
 ![Showing how the application runs from loading, adding Pokemon to a team and also releasing one](/pokemon-teams-frontend/assets/pokemon_teams.gif)
 
 ## Requirements
-- When a user loads the page, they should see all
-  trainers, with their current team of Pokemon.
+<!-- - When a user loads the page, they should see all
+  trainers, with their current team of Pokemon. -->
+
 - Whenever a user hits `Add Pokemon` and they have
   space on their team, they should get a new Pokemon.
+
 - Whenever a user hits `Release Pokemon` on a specific
   Pokemon team, that specific Pokemon should be released from
   the team.
 
-## Suggested HTML
+<!-- ## Suggested HTML
 A Pokemon Card can be placed within the `<main>` tags.
 
 ### Pokemon Trainer Card
@@ -31,7 +33,7 @@ A Pokemon Card can be placed within the `<main>` tags.
     <li>Rosetta (Eevee) <button class="release" data-pokemon-id="150">Release</button></li>
     <li>Rod (Beedrill) <button class="release" data-pokemon-id="151">Release</button></li>
   </ul>
-</div>
+</div> -->
 ```
 
 ## API Routes
